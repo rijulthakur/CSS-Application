@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+body{
+  background-image: url("https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?cs=srgb&dl=pexels-sebastian-ervi-1763075.jpg&fm=jpg");
+  background-repeat: no-repeat;
+}
+
+.maindiv{
+  margin: auto;
+  padding: 1% 2%;
+  max-width: 700px;
+  border-radius: 50px;
+  background: #ecf0f1;
+  background-image: url("https://images.pexels.com/photos/2078071/pexels-photo-2078071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+h1,h2,h3{
+  text-align: center;
+  font-family: 'Baloo Tamma', cursive;
+}
+li{
+  color: #2c3e50;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-family: 'Raleway', serif;
+}
+
+.mainul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.list{
+  box-shadow:0 2px 4px rgb(0,0,0,0.2)
+}
+
+.box{
+  width: 100%;
+  height: 100vh;
+  padding: 1% 2%;
+  min-height: 200px;
+  max-height: 220px;
+  box-sizing: border-box;
+}
+
+#check{color: #52d0f0;}
+
+.li1{color:rgb(207, 195, 23);}
+
+.li2{color:rgb(202, 6, 29);}
+
+.li3{color:rgba(23, 3, 46, 0.829);}
+
+.li4{color:rgb(14, 170, 14);}
+#pop a:hover{
+  color:rgb(207, 195, 23);
+}
+#hhr a:hover{
+  color:rgb(202, 6, 29);
+}
+#rb a:hover{
+  color:rgba(23, 3, 46, 0.829);
+}
+#pun a:hover{
+  color:rgb(14, 170, 14);
+}
+
+a{
+  text-decoration: none;
+  color: #fbfeffef;
+}
+
+</style>
+</head>
+<body>
+    <div class="maindiv">
+        <h1 id="check">Choose your Genre</h1>
+        
+        <ul class="mainul">
+          <li class="list">
+            <div class="box">
+            <h3 id="pop"><a href="pop.html" target="_blank">Pop</a></h3>
+            
+            <ul type="disc">
+            <li class="li1">Charlie Puth</li>
+            <li class="li1">Dua Lipa</li>
+
+            </ul> 
+          </div>
+         </li> 
+          <li class="list">
+            <div class="box">
+           <h3 id="hhr"><a href="hiphoprap.html" target=_blank>Hip-Hop/Rap</a></h3>
+           <ul type="square">
+            <li class="li2">Kendrick Lamar</li>
+            <li class="li2">Drake</li>
+            
+           </ul>
+          </div>
+         </li>
+          <li class="list">
+            <div class="box">
+           <h3 id="rb"><a href="rbsoul.html" target="_blank">R&B/Soul</a></h3>
+           <ol type="I">
+            <li class="li3">The Weeknd</li>
+            <li class="li3">Alicia Keys</li>
+            
+           </ol>
+          </div>
+         </li>
+          <li class="list">
+            <div class="box">
+           <h3 id="pun"><a href="punjabi.html" target="_blank">Punjabi</a></h3>
+           <ol>
+            <li class="li4">Diljit Dosanjh</li>
+            <li class="li4">Karan Aujla</li>
+            
+           </ol>
+          </div>
+         </li> 
+         
+         
+        </ul>
+    </div>
+</body>
+</html>
